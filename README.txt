@@ -22,7 +22,6 @@ cmake -S . -B build
 # budowa
 cmake --build build --target NumLab
 • Windows MSVC → build/Debug/NumLab.lib
-• gcc/clang → build/libNumLab.a
 -----------------------------------
 Visual Studio 2022 
 Otworzyć projekt sln w Visual Studio -> a następnie CTRL+SHIST+B
