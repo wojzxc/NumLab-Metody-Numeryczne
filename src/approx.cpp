@@ -1,5 +1,6 @@
 ﻿#include "approx.h"
 #include "linsolve.h"     
+#include "integrate.h"
 #include <cmath>
 #include <stdexcept>
 
@@ -40,13 +41,5 @@ namespace numlab {
         return gaussian_elimination(A, B);
     }
 
-    double poly_horner(const Vector& c, double x)
-    {
-        if (c.empty()) return 0.0;
-        double res = c.back();
-        for (int i = static_cast<int>(c.size()) - 2; i >= 0; --i)
-            res = res * x + c[i];
-        return res;
-    }
 
 } 

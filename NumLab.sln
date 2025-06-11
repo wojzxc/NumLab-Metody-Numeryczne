@@ -17,6 +17,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex_approx", "examples\ex_ap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex_interpolate", "examples\ex_interpolate\ex_interpolate.vcxproj", "{07089E8D-9D6B-468D-AC4B-4E37A3592083}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutomaticTests", "tests\AutomaticTests\AutomaticTests.vcxproj", "{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{C73D2D1A-BF59-42E0-98D7-4E98E49C6650}"
+	ProjectSection(SolutionItems) = preProject
+		build_lib.sh = build_lib.sh
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +88,14 @@ Global
 		{07089E8D-9D6B-468D-AC4B-4E37A3592083}.Release|x64.Build.0 = Release|x64
 		{07089E8D-9D6B-468D-AC4B-4E37A3592083}.Release|x86.ActiveCfg = Release|Win32
 		{07089E8D-9D6B-468D-AC4B-4E37A3592083}.Release|x86.Build.0 = Release|Win32
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Debug|x64.ActiveCfg = Debug|x64
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Debug|x64.Build.0 = Debug|x64
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Debug|x86.Build.0 = Debug|Win32
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Release|x64.ActiveCfg = Release|x64
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Release|x64.Build.0 = Release|x64
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Release|x86.ActiveCfg = Release|Win32
+		{9B0F2D43-B846-4B96-A9CD-3FEC357C49CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

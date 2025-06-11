@@ -11,6 +11,4 @@ namespace numlab {
         int    m,
         int    n = 200);
 
-    double poly_horner(const Vector& coef, double x);
-
 } 
