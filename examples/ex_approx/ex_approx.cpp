@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cmath>
 #include "approx.h"
+#include "interpolate.h"
 
 /*****************************************************************************
 *  ex_approx.cpp                                                             *

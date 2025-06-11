@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{C7935788-7311-43DB-83E3-E9AB5D271E10}"
 	ProjectSection(SolutionItems) = preProject
 		CMakeLists.txt = CMakeLists.txt
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Global
